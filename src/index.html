@@ -1,0 +1,37 @@
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .hh {
+            display: grid;
+            height: 100%;
+        }
+        .cntr {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+</head>
+
+
+
+<img class="hh cntr" src="" alt="Background">
+
+<script>
+    let whichBackground = Math.floor(Math.random() * 3);
+    let imagePath;
+    switch(whichBackground){
+        case 0:
+            document.querySelector('img').src = "./img/1.jpg";
+            break;
+        case 1:
+            document.querySelector('img').src = "./img/2.jpg";
+            break;
+        case 2:
+            document.querySelector('img').src = "./img/3.jpg";
+            break;
+    }
+</script>

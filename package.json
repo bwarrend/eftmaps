@@ -1,0 +1,14 @@
+{
+  "name": "eftmaps",
+  "version": "1.0.0",
+  "description": "Standalone Escape From Tarkov Maps",
+  "main": "index.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "author": "bwarrend",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.0.3"
+  }
+}
